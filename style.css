@@ -1,0 +1,104 @@
+*{
+	box-sizing: border-box;
+}
+
+body, html{
+	margin: 0px;
+	padding: 0px;
+	background-color:grey;
+	
+}
+
+
+
+#bgd1{
+	background-image:url("data/bgd6.jpg");
+}
+
+#bgd2{
+	background-image: url("data/bgd2.jpg");
+}
+
+.background{
+	width: 100vw;  
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#index{
+	color:red;
+	font-style:bold;
+	text-decoration: none;
+	font-size:180%;
+	margin-left:26%;
+	margin-bottom: 15%;
+/*	margin-top: 5%;*/
+	padding:0;
+	font-family: Silkscreen;
+}
+#home{
+	background-image: url("data/home.jpg");
+}
+
+.title{
+	font-family:Silkscreen;
+/*	font-family: IBM Plex Mono;*/
+	color:white;
+	font-kerning:auto;
+/*	font-stretch: condensed;*/
+	text-align:left;
+	margin-top:5vh;
+	margin-left:15vw;
+}
+.title .what-is{
+	font-size:300%;
+	margin:0;
+	padding:0;
+}
+.title .devon{
+	font-size:150%;
+	margin-top:1vh;
+	padding:0;
+}
+/*
+.title .made-of{
+	font-size:345%;
+	margin:0;
+	padding:0;
+}*/
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  	position: fixed;
+	top: 1vh;
+	display:flex;
+	justify-content: flex-start;
+	text-align: left;
+}
+li{
+/*	flex-grow: 1;*/
+}
+
+li a {
+	color: ghostwhite;
+	text-align: center;
+	display: block;
+	padding:1vh 0vw;
+	text-decoration: none;
+	font-family: 'Silkscreen';
+	margin-left:2vw;
+
+}
+
+li a:hover {
+	color:indianred;
+}
+
