@@ -1,9 +1,11 @@
 *{
 	box-sizing: border-box;
+
 }
 
 html {
   scroll-behavior: smooth;
+
 }
 
 body, html{
@@ -12,8 +14,16 @@ body, html{
 	
 }
 
+.cursor{
+	cursor: url("data/wenhao2.png"),auto;
+}
+
 #indexbody{
 	background-color: #131313;
+}
+
+#worksboday{
+	background-color:;
 }
 
 @font-face {
@@ -90,21 +100,21 @@ body, html{
 
 ul {
 	list-style-type: none;
+}
+#nav{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-  	position: fixed;
+  position: fixed;
 	top: 1vh;
 	display:flex;
 	justify-content: flex-start;
 	text-align: left;
 	z-index: 100;
-}
-li{
-/*	flex-grow: 1;*/
+
 }
 
-li a {
+li a{
 	color: ghostwhite;
 	text-align: center;
 	display: block;
@@ -115,7 +125,7 @@ li a {
 
 }
 
-li a:hover {
+li a:hover{
 	color:indianred;
 }
 
@@ -247,4 +257,66 @@ a#scroll-btn:before {
 	font-family: Play;
 	font-size:150%;
 	margin-top:1vh;
+}
+
+.uull{
+	list-style: none;
+}
+
+.image-gallery {
+/*	list-style: none;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5vh;
+  margin-top:10vh;
+  margin-bottom: 15vh;
+}
+
+#ig{
+  flex-basis: 25vw; /* width: 350px; */
+  position: relative;
+  cursor: pointer;
+}
+
+.image-gallery::after {
+  content: "";
+  flex-basis: 25vw;
+}
+
+.image-gallery img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+/*  border-radius: 1vw;*/
+}
+.overlay {
+  position: absolute;
+  width: 80%;
+  height: 30%;
+  background: rgba(57, 57, 57, 0.502);
+  top: 55%;
+  left: 13.5%;
+  transform: scale(0);
+  transition: all 0.2s 0.1s ease-in-out;
+  color: #fff;
+/*  border-radius: 5px;*/
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-gallery li:hover .overlay {
+  transform: scale(1);
+}
+.container {
+  padding: 40px 5%;
+}
+
+span {
+  font-family: DOS TWN16;
+  font-size:120%;
+  text-align: center;
 }
