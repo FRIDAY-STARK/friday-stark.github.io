@@ -586,10 +586,19 @@ span {
 	margin-bottom:5vh;
 }
 
-#resp-iframe iframe{
-	width:80%;
+.image-gallery{
+/*	list-style: none;*/
+  display: flex;
+/*  flex-direction:column;*/
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1vw;
+  margin-top:5vh;
+  margin-bottom: 10vh;
 }
-
+.container {
+/*  padding: 2vw 5%;*/
+}
 /*#wusan{
 	width:53vw;
 	left:30vw;
