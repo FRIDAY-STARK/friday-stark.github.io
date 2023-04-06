@@ -563,6 +563,33 @@ display: flex;
 	margin-bottom:20vh;
 }
 
+span {
+  font-family: DOS TWN16;
+  font-size:2.5vw;
+  text-align: center;
+}
+
+.name{
+	margin-top: 2vh;
+	font-family: DOS TWN16;
+	font-size:5vw;
+	text-align: center;
+	color:ghostwhite;
+}
+
+.approach{
+	margin-top: 1vh;
+	font-family: Play;
+	font-size: 2vw;
+	text-align: center;
+	color:ghostwhite;
+	margin-bottom:5vh;
+}
+
+#resp-iframe iframe{
+	width:80%;
+}
+
 /*#wusan{
 	width:53vw;
 	left:30vw;
