@@ -245,12 +245,12 @@ a#scroll-btn:before {
 	margin-right: 10vw;
 /*	margin-top:;*/
 	margin-bottom: 5vh;
-/*font-family:"IBM EGA8x8";*/
-	font-family: DOS TWN16;
+font-family:"IBM EGA8x8";
+/* 	font-family: DOS TWN16; */
 
 }
 .made .header{
-	font-size: 400%;
+	font-size: 180%;
 }
 
 .made .subheader{
