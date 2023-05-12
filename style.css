@@ -14,9 +14,9 @@ body, html{
 	
 }
 
-.cursor{
+/*.cursor{
 	cursor: url("data/wenhao2.png"),auto;
-}
+}*/
 
 #indexbody{
 	background-color: #131313;
@@ -299,7 +299,7 @@ ul{
 /*	height:20vh;*/
 /*	width:auto;*/
   position: relative;
-  cursor: pointer;
+/*  cursor: pointer;*/
 /*  flex-grow: 1;*/
 	flex: 1 1 auto;
 }
@@ -308,14 +308,14 @@ ul{
   flex-basis: 40%; /* width: 350px; */
 /*	height:50%;*/
   position: relative;
-  cursor: pointer;
+/*  cursor: pointer;*/
 /*  flex-grow: 1;*/
 /*	flex: 1 1 auto;*/
 }
 #ig2{
 	flex-basis:20%;
 	position: relative;
-	cursor: pointer;
+/*	cursor: pointer;*/
 }
 
 #ig3{
@@ -326,7 +326,7 @@ ul{
 #ig4{
 	flex-basis:70%;
 	position: relative;
-  cursor: pointer;
+/*  cursor: pointer;*/
 }
 
 /*.image-gallery::after {
@@ -404,7 +404,14 @@ span {
 	width:50%;
 }
 #h1{
-	margin-top:7vh;
+	margin-top:8.5vh;
+	margin-left:30.5vw;
+	margin-right: 30vw;
+	width:38%;
+	text-align: center;
+}
+#h2{
+	margin-top:3vh;
 	margin-left:29.6vw;
 	margin-right: 29.6vw;
 	width:40%;
@@ -467,8 +474,151 @@ iframe {
 .resp_container {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
+/*	padding-top: 25px;*/
 	height: 0;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 60rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom:3rem;
+}
+
+.photo-container {
+/*  background-color: whitesmoke;*/
+  padding: 1vw;
+  width: 100%;
+  max-width: 30rem;
+	margin: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.photo-thumbnail {
+  height: 30rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.photo-overlay {
+  position: relative;
+  width: 80%;
+  height: 20%;
+  background: rgba(57, 57, 57, 0.502);
+	bottom: 30%;
+	margin:0 auto;
+font-family: DOS TWN16;
+font-size: 120%;
+  transform: scale(0);
+  transition: all 0.2s 0.1s ease-in-out;
+  color: #fff;
+/*  border-radius: 5px;*/
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a:hover .photo-overlay {
+  transform: scale(1);
+  text-decoration: none;
+}
+a{
+	text-decoration: none;
+	color:lightskyblue;
+}
+
+#socialmedia{
+	text-decoration: underline;
+	color:lightskyblue;
+}
+
+.description{
+	color:whitesmoke;
+	text-align: justify;
+/*	width:50vw;*/
+	font-family: Play;
+	font-size:150%;
+	margin-top:10vw;
+	margin-left: 25vh;
+	margin-right: 25vh;
+/*	padding:10%;*/
+}
+.description1{
+	color:whitesmoke;
+	text-align: center;
+/*	width:50vw;*/
+	font-family: Play;
+	font-size:150%;
+	margin-top:10vw;
+	margin-left: 25vh;
+	margin-right: 25vh;
+/*	padding:10%;*/
+}
+.description2{
+	color:whitesmoke;
+	text-align: justify;
+/*	width:50vw;*/
+	font-family: Play;
+	font-size:150%;
+	margin-top:2%;
+	margin-left: 25vh;
+	margin-right: 25vh;
+/*	padding:10%;*/
+}
+
+.logocontainer {
+/*  background-color: whitesmoke;*/
+/*  padding: 1vw;*/
+  width: 100%;
+
+/*  max-height: 50rem;*/
+	margin: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+/*  flex-wrap: wrap;*/
+  max-width: 1200px;
+/*  margin: 0 auto;*/
+}
+
+.logo-thumbnail {
+  height: 100%;
+  object-fit: cover;
+  width: 50rem;
+}
+
+video{
+	position: absolute;
+	/*width:80%;
+	height: 80%;*/
+	left:30%;
+	display: flex;
+	justify-content: center;
+}
+
+canvas {
+  display: block;
+  height: auto; /* set the height to auto to adjust the height of the canvas dynamically */
+  margin: 0 auto; /* center the canvas horizontally */
+/*  margin: 0 auto 100px;*/
+  margin-top: 0 !important;
+  margin-bottom: 100px;
+}
+.iframe-holder{
+	display: block;
+  height: auto; /* set the height to auto to adjust the height of the canvas dynamically */
+  margin: 0 auto; /* center the canvas horizontally */
+/*  margin: 0 auto 100px;*/
+  margin-top: 0 !important;
+  margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 1000px) {
