@@ -1,5 +1,10 @@
 let photoData = [
       {
+        "title": "Deep Waters",
+        "link": "deepwaters.html",
+        "cover": "data/water.png",
+      },
+      {
         "title": "Robotron But Under The Sea",
         "link": "clonegame.html",
         "cover": "data/clonegame.png",
